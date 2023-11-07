@@ -1,0 +1,362 @@
+.navbar-brand {
+    margin-left: 75px;
+    background: var(--purple-50, #F5F3FF);
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    background: var(--purple-50, #F5F3FF);
+}
+
+.nav-item {
+    margin-right: 100px;
+    background: var(--purple-50, #F5F3FF);
+}
+
+.btn-filled {
+    margin-right: 100px;
+    background-color: #6D28D9;
+    color: white;
+    border: 2px solid #6D28D9;
+}
+
+.btn-outlined {
+    margin-right: 100px;
+    background-color: transparent;
+    color: #6D28D9;
+    border: 2px solid #6D28D9;
+}
+
+.image-container {
+    position: relative;
+    width: 978px;
+    height: 591px;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.image-container .image {
+    display: block;
+    width: 978px;
+    height: 591px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #FFF, transparent);
+}
+
+.custom-text {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    transform: translate(-50%, -50%);
+    color: var(--grayscale-700, #383751);
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    white-space: nowrap;
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.sub-text {
+    position: absolute;
+    top: 250px;
+    left: 45px;
+    width: 584px;
+    color: var(--purple-900, #4C1D95);
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    white-space: nowrap;
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.regulatory-text {
+    position: absolute;
+    top: 320px;
+    left: 65px;
+    width: 416px;
+    height: 125px;
+    flex-shrink: 0;
+    color: var(--grayscale-700, #383751);
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.btn-below {
+    border-radius: 10px;
+    position: absolute;
+    top: 480px;
+    left: 60px;
+    margin-right: 20px;
+    padding: 15px 30px;
+    background-color: #6D28D9;
+    color: white;
+    border: 2px solid #6D28D9;
+}
+
+.btn-right {
+    border-radius: 10px;
+    position: absolute;
+    top: 480px;
+    left: 250px;
+    padding: 15px 30px;
+    background-color: #DDD6FE;
+    color: #6D28D9;
+    border: 2px solid #6D28D9;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px !important;
+}
+
+.custom-card {
+    width:400px;
+    margin-right: 20px;
+    border-radius: 12px;
+    border: 1px solid #8381A6;
+    background: linear-gradient(90deg, #FFF -1.52%, rgba(255, 255, 255, 0.24) 104.35%);
+    backdrop-filter: blur(39.60016632080078px);
+    display: flex;
+    width: 360px;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px !important;
+}
+.card-img-top {
+    height: 60px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+
+.card-texts {
+    color: var(--purple-800, #5B21B6);
+    text-align: center;
+    font-family: 'Verizon NHG DS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    white-space: nowrap;
+}
+
+.card-body {
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100%; 
+}
+
+
+.card-text small.text-muted {
+    color: #5B21B6; 
+}
+.cards-container .custom-card:last-child {
+    margin-right: 0;
+}
+
+.card-row {
+    gap: 20px !important;
+    margin-left:-65px;
+}
+
+.col-md-3 {
+    margin-right: 150px; 
+}
+
+.col-md-3:last-child {
+    margin-right: 0;
+}
+.card-title {
+    min-height: 60px; 
+}
+.card-body h5, .card-body p {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mighty-feature-set {
+    color: var(--grayscale-800, #201F37);
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.description-text {
+    width: 902.016px;
+    color: var(--grayscale-800, #201F37);
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto; 
+}
+.element {
+    width: 100% !important;
+}
+.text-below .belowcard {
+    margin-top:100px;
+    margin-left:-35px;
+    top: 200px;
+    left: 10px;
+    width: 643px;
+    height: 98.384px;
+    flex-shrink: 0;
+    font-size: 40px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    color: #333;
+    text-align: left;
+}
+
+.steps-wrapper {
+    margin-left:-35px;
+    margin-top:50px;
+    display: flex;
+    gap:100px;  
+}
+
+.step {
+    display: flex;
+    flex-direction: column;  
+    align-items: right;     
+    gap: 10px;              
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    font-size: 30px;
+    font-weight: bold;
+    width: 48px;
+    height: 48px;
+    background-color: #6D28D9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.register {
+    margin-top:10px;
+    margin-right: auto;
+    color: #1D0447;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.register-text {
+    margin-top: 5px;
+    color: var(--grayscale-800, #201F37);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.mySVG {
+    width: 200px;
+    display: block;
+    height: 45px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--purple-400, #C4B5FD);
+    margin: auto;  
+}
+.mySVG1 {
+    width: 200px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.video-img {
+    margin-top:80px;
+    width:1233px;
+    height:578px;
+    margin-left:50px;
+    display: block;
+}
+.video-img-play {
+    margin-left:600px;
+    margin-top:-600px;
+    width: 64px;
+    height: 64px;
+    padding: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.69);
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-card {
+        flex-direction: column;
+    }
+    .btn-below,
+    .btn-right {
+        margin: 5px;
+    }
+    .description-text,
+    .belowcard {
+        font-size: 16px;
+    }
+    .circle {
+        padding: 8px 16px;
+    }
+}
+@media only screen and (max-width: 480px) { 
+    .custom-text,
+    .sub-text,
+    .regulatory-text {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .description-text,
+    .belowcard {
+        font-size: 14px;
+    }
+    .circle {
+        padding: 6px 12px;
+    }
+    .btn-below,
+    .btn-right {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .mighty-feature-set {
+        flex-direction: column;
+    }
+}
